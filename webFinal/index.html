@@ -8,16 +8,23 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <style>
+  
   body {
-      position: relative; 
-  }
-  #section1 {padding-top:50px;height:500px;color: #fff; background-color: teal;}
-  #section2 {padding-top:50px;height:500px;color: #fff; background-color: yellow;}
-  #section3 {padding-top:50px;height:500px;color: #fff; background-color: green;}
-  #section41 {padding-top:50px;height:500px;color: #fff; background-color:blue;}
-  #section42 {padding-top:50px;height:500px;color: #fff; background-color: grey;}
+      position: relative; }
+  #intro    {padding-top:50px;height:500px;color: #fff; background-color:darkgreen;text-align:center}
+  #section1 {padding-top:50px;height:500px;color: #fff; background-color:lightgreen;text-align:center}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: teal;text-align:center}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: green;text-align:center}
+ .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
   </style>
 </head>
+
+  
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 <!-- Navbar -->
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -26,17 +33,21 @@
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
+          <span class="icon-bar"></span>
+           <span class="icon-bar"></span>   
+          
       </button>
-      <a class="navbar-brand" href="#">WebSiteName</a>
+      <a class="navbar-brand" href="#">About Me</a>
     </div>
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
+          
+          <li><a href="#intro">Top</a></li>
           <li><a href="#section1">Hobbies</a></li>
           <li><a href="#section2">Intrests</a></li>
-          <li><a href="#section3">extracurriculers </a></li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+          <li><a href="#section3">extracurriculers</a></li>
+          
             <ul class="dropdown-menu">
               
             </ul>
@@ -47,20 +58,54 @@
   </div>
 </nav>    
 <!-- end of navbar-->
-<div id="section1" class="container-fluid">
-  <h1>Hobbies</h1>
-  <p></p>
+<!-- Start of Intro and Hobbies-->
   
+
+ <div id="intro" class="container-fluid">
+   <div class="row">
+     <h1 class="center">About me</h1>
+     
+     <div class="col-lg-4">
+        <h4>
+          Family Origins
+        </h4>
+    </div>
+    
+    <div class="col-lg-4">
+        <h4>
+          Family
+        </h4>
+    </div>
+    
+    <div clas="col-lg-4">
+        <h4>
+          My Origins
+        </h4>
+    </div>
+    </div>
+  </div>
 </div>
+  
+<div id="section1" class="container-fluid">
+  <div class="row">
+    <div class="col-lg-4">
+      <h1 class="center">Hobbies</h1>
+      
+    </div>
+  </div>
+</div>
+
 <div id="section2" class="container-fluid">
+  
   <h1>Intrests</h1>
   <p></p>
   
 </div>
 <div id="section3" class="container-fluid">
-  <h1></h1>
+  <h1>Extra curriculers </h1>
   <p></p>
 </div>
+
 
 </body>
 </html>
