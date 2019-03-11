@@ -9,21 +9,45 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <style>
   
+   .jumbotron {
+      background: url('https://images.unsplash.com/photo-1437422061949-f6efbde0a471?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80') 
+      no-repeat center center;
+      background-size: cover;
+      padding-top: 20%;
+      padding-bottom: 20%;
+    }
+    
+    
+    h1{font-family: 'Jacques Francois Shadow';font-size: 50px;  }
+    
   body {
       position: relative; }
-  #intro    {padding-top:50px;height:500px;color: #fff; background-color:darkgreen;text-align:center}
-  #section1 {padding-top:50px;height:500px;color: #fff; background-color:lightgreen;text-align:center}
-  #section2 {padding-top:50px;height:500px;color: #fff; background-color: teal;text-align:center}
-  #section3 {padding-top:50px;height:500px;color: #fff; background-color: green;text-align:center}
+      #section3 {padding-top:50px;height:500px;color: #fff; background-color:#1EA9E1;text-align:center}
+  #intro    {padding-top:50px;height:800px;color: #fff; background-color:#1EA9E1;text-align:center}
+  #section1 {padding-top:50px;height:800px;color: #fff; background-color:#1EA9E1;text-align:center}
+  #section2 {padding-top:50px;height:800px;color: #fff; background-color:#1EA9E1;text-align:center}
+  #section3 {padding-top:50px;height:800px;color: #fff; background-color:#1EA9E1;text-align:center}
+ 
  .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
+
+.text {
+  text-align:center
+}
+
+
+  
   </style>
 </head>
 
+<link href='https://fonts.googleapis.com/css?family=Jacques Francois Shadow' rel='stylesheet'>
+
+<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
   
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 <!-- Navbar -->
@@ -43,10 +67,11 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
           
-          <li><a href="#intro">Top</a></li>
+          <li><a href="#section3">Home</a></li>
+          <li><a href="#intro">Intro</a></li>
           <li><a href="#section1">Hobbies</a></li>
           <li><a href="#section2">Intrests</a></li>
-          <li><a href="#section3">extracurriculers</a></li>
+          
           
             <ul class="dropdown-menu">
               
@@ -59,52 +84,145 @@
 </nav>    
 <!-- end of navbar-->
 <!-- Start of Intro and Hobbies-->
+ 
+<div id="section3">
+  <div class="jumbotron">
   
+   <h1>Adam Babiarz</h1>
+   
+  </div>
+</div>
 
+<!--Intro-->
  <div id="intro" class="container-fluid">
    <div class="row">
+     
      <h1 class="center">About me</h1>
      
-     <div class="col-lg-4">
-        <h4>
-          Family Origins
-        </h4>
-    </div>
+      <div class="col-lg-6">
+        <h3>
+          Parents Origins
+        </h3>
+        <img src="images/Warsaw.jpg" style="height:350px">
+        <p class="center" style="font-size:20px;">
+          My Parents came to Chicago in search of a better life. My Dad came from a small town near the Atlantic Ocean, While my Mom came from 
+          the countries capital "Warsaw"
+          </p>
+      </div>
     
-    <div class="col-lg-4">
-        <h4>
-          Family
-        </h4>
-    </div>
     
-    <div clas="col-lg-4">
-        <h4>
-          My Origins
-        </h4>
-    </div>
+    <div clas="col-lg-6">
+            <h3>
+              My Origins
+            </h3>
+              <img src="images/Chicago.png" class="center" style="height:350px">
+            <p class="center" style="font-size:20px">
+                I was born and raised in Chicago, and love this city with all my heart. I love the musiums, 
+                the beaches on the lake, and the loving community that this city has become. 
+            </p>
+        </div>
+        
+      <div class="col-lg-12">
+        <h3>
+          I Love My Family
+        </h3>
+          <img src="images/Family.jpg" style="height:250px">
+      </div>
+    
     </div>
   </div>
-</div>
   
+  
+  <!--Hobbies-->
 <div id="section1" class="container-fluid">
   <div class="row">
+    
+    <h1>
+      Hobbies
+    </h1>
+    
     <div class="col-lg-4">
-      <h1 class="center">Hobbies</h1>
+      <h3>
+        Volleyball
+      </h3>
+      <img src="images/volleyball.jpeg" style="height:250px">
+      
+      <p style="font-size:20px;">
+        I really love this sport and have recently gotten into my schools volleyball program. 
+        I hope to professionally join a college volleyball team to further pursue my dream of performing at the highest level. 
+      </p>
       
     </div>
+    
+    <div class="col-lg-4">
+      <h3>
+        Hiking
+      </h3>
+      <img src="images/hiking.jpg" style="height:250px">
+      <p style="font-size:20px;">
+        Hiking is a way for me to releave myself of stress, embrance the beuty of nature and a way of escape from the buisy city life. 
+      </p>
+      
+    </div>
+    
+    <div class="col-lg-4">
+      <h3>
+        Spikeball
+      </h3>
+      <img src="images/spikeball.jpg" style="height:250px">
+      <p style="font-size:20px;">
+        One sport that I really enjoy is spikeball. My friends and I play it all the time againts each other, in the park, on tennis courts, its everywhere.
+      </p>
+    </div>
+    
   </div>
 </div>
 
+
+<!-- Intresets-->
 <div id="section2" class="container-fluid">
+  <div class="row">
+        
+        <h1>Intrests</h1>
   
-  <h1>Intrests</h1>
-  <p></p>
+        <div class="col-lg-4">
+          <h3>
+            Rainbow Six Siege
+          </h3>
+          <img src="images/game.jpg" style="height:250px">
+          
+          <p style="font-size:20px">
+            One game that i am really interestd in is Rainbow Six Siege. Its a tactical first person shooter, required massive amounts of skill, teamwork, and knowlage. Its my favrote video 
+            game to 
+            play with my friends. 
+          </p>
+        </div>
+        
+        <div class="col-lg-4">
+          <h3>
+            Medical Profession
+          </h3>
+          <img src="images/doctor.jpg" style="height:250px">
+          <p style="font-size:20px">
+            I have always wanted to become a surgion or doctor. I've always liked to help people, and I feel that becomming a doctor is best suitable for me. 
+          </p>
+        </div>
+          
+          
+        <div class="col-lg-4"> 
+        
+        <h3>
+          Esports
+        </h3>
+        <img src="images/esport.jpg" style="height:250px">
+          <p style="font-size:20px">
+            A final one of my intrests is to become a proffesional esports gamer, playing my favorite game with friends and hopefully winning some championships.
+          </p>
+        </div>
   
+  </div>
 </div>
-<div id="section3" class="container-fluid">
-  <h1>Extra curriculers </h1>
-  <p></p>
-</div>
+
 
 
 </body>
