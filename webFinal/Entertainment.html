@@ -1,31 +1,55 @@
 <!DOCTYPE html>
 <html>
+  
 <head>
-      <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Entertainment</title>
+      <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
         <meta charset="utf-8">
           <meta name="viewport" content="width=device-width, initial-scale=1">
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <style>
-  
+
+  .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.paragraph{
+    font-family: 'ZCOOL XiaoWei', serif; 
+      font-size: 20px;
+    
+}
+
+.container {
+  padding: 2px 16px;
+}
+
    .jumbotron {
       background: url('https://cdn3.vectorstock.com/i/1000x1000/28/87/cinema-theater-background-vector-7362887.jpg') 
       no-repeat center center;
       background-size: cover;
       padding-top: 20%;
       padding-bottom: 40%;
+      text-align: center;
     }
-    
-    h1{font-family: 'Jacques Francois Shadow';font-size: 50px;  }
+
+  h1{font-family: 'ZCOOL XiaoWei', serif; font-size:60px; }
     
   body {
       position: relative; }
       #section3 {padding-bottom:100px;height:500px;color: #fff; background-color:#cc0000;text-align:center}
-  #intro    {padding-top:50px;height:800px;color: #fff; background-color:#cc0000;text-align:center}
-  #section1 {padding-top:50px;height:800px;color: #fff; background-color:#cc0000;text-align:center}
-  #section2 {padding-top:50px;height:800px;color: #fff; background-color:#cc0000;text-align:center}
-  #section3 {padding-top:50px;height:800px;color: #fff; background-color:#cc0000;text-align:center}
+  #intro    {padding-top:50px;height:800px;color: #fff; background-color:rgb(204, 0, 0);text-align:center}
+  #section1 {padding-top:50px;height:800px;color: #fff; background-color:rgb(204, 0, 0);text-align:center}
+  #section2 {padding-top:50px;height:800px;color: #fff; background-color:rgb(204, 0, 0);text-align:center}
+  #section3 {padding-top:50px;height:800px;color: #fff; background-color:rgb(204, 0, 0);text-align:center}
    
  .center {
   display: block;
@@ -34,17 +58,11 @@
   width: 50%;
 }
 
-
-  
   </style>
 </head>
+<!-- Font-->
+<link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
 
-<link href='https://fonts.googleapis.com/css?family=Jacques Francois Shadow' rel='stylesheet'>
-
-<link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Tangerine">
-  
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
 <!-- Navbar -->
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
@@ -61,14 +79,15 @@
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
+      
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home </a>
+          </li>
           
-          <li><a href="#section3">Home</a></li>
-          <li><a href="#intro">Intro</a></li>
-          <li><a href="#section1">Hobbies</a></li>
-          <li><a href="#section2">Intrests</a></li>
-          
-          
-            <ul class="dropdown-menu">
+          <li class="nav-item">
+            <a class="nav-link" href=travel.html>Travel </a>
+          </li>
+           
               
             </ul>
           </li>
@@ -78,52 +97,97 @@
   </div>
 </nav>    
 <!-- end of navbar-->
-<!-- Start of Intro and Hobbies-->
- 
-<div id="section1">
-  <div class="jumbotron">
-  <font color="black">
-   <marquee behavior="scroll" direction="right">
-    <h1>
-      Entertainment
-    </h1>
-    </marquee>
-</font>
+<!-- Start of Section 1-->
+
+<div class="jumbotron">
   
-  </div>
+  <h1>
+    Entertainment
+  </h1>
 </div>
-
-
-  <div id="section2" class="container-fluid">
-    <div class="row">
-   
-    <div class="col-lg-6">
-      <h3>
-        Books
-      </h3>
-      
-      <img src="images/books.jpeg">
-      
-      <p>
-        I really like to read books 
-      </p>
-  </div>
-  </div>
+ 
+ <div id="section2" class="cotainer-fluid">
+   <div class="row">
      
-      <div class="col-lg-6">
-        <h3>
-        Movies
-        </h3>
-        <div class="card" id="card>"
-        <img src="images/"
-        <h4><b>Favorite Movies</b></h4>
-        
+     <div class="col-lg-4">
+       <h3>
+         Movies
+       </h3>
+       <img src="images/cinema.jpg" style="height:350px">
+       <div class="paragraph">
+           <p>
+             My favorite way to entertain myself is by watching movies. They are a great way of bonding with my family,
+             bonding with friends, and overall having a good time. <br>
+             Some of my favorite are...
+                 <ul>
+                     <li>
+                         Jaws
+                     </li>
+                     <li>
+                         The Conjuring 
+                     </li>
+                     <li>
+                         Avengers Infinity War
+                     </li>
+                 </ul>
+            </p>
+        </div>
+     </div>
+     
+    <div class="col-lg-4">
+       <h3>
+         Books
+       </h3>
+       <img src="images/books.jpeg" style="height:350px">
+        <div class="paragraph">
+           <p>
+                 A second way that I like to spend time is reading books. They allow me to fantazise about realities that can only
+                 exist in made up worlds. They allow me to explore without even having to leave my room.<br>
+                 Some of my favoite are...
+                <ul>
+                   <li>
+                     Harry Potter and the Sorceres Stone
+                   </li>
+                   <li>
+                     The Hobbit
+                   </li>
+                   <li>
+                   The Bunker Diaries
+                   </li>
+                </ul>
+            </p>
       </div>
-      </div>
-      
-    
-
-
+    </div>
+     
+    <div class="col-lg-4">
+       <h3>
+         Video Games
+       </h3>
+       <img src="images/games.jpg" style="height:350px">
+           <div class="paragraph">
+            <p>
+                 A final way that I like to entertain myself is by playing video games. 
+                 I find it as a great way to connect with my friends after school and as a way to pursue my passion 
+                 of becoming a e-sports player. <br>
+                 Some of my Favorite are...
+             <ul>
+               <li>
+                 Rainbow Six Siege
+               </li>
+               <li>
+                 Counter Strike Global Offensive
+               </li>
+               <li>
+                 Portal 2
+               </li>
+             </ul>
+            </p>
+           </div>
+    </div>
+     
+   </div>
+ </div>
+  
 
 </body>
 </html>
